@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.merkoscontacts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_merkos"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_merkos_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddComment"></activity>
+        <activity android:name=".Comments" />
+        <activity android:name=".Search" />
+        <activity android:name=".UpdateContact" />
+
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SearchResultsActivity" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".CityView"
+            android:label="@string/title_activity_city_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewingCollectionActivity"
+            android:label="@string/title_activity_viewing_collection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CollectionActivity"
+            android:label="Merkos Shlichus Contacts" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Merkos Shlichus Contacts">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

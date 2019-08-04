@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/arbutus_slab</item>
+        <item>@font/chelsea_market</item>
+        <item>@font/germania_one</item>
+        <item>@font/gfs_didot</item>
+        <item>@font/lustria</item>
+        <item>@font/paprika</item>
+    </array>
+</resources>

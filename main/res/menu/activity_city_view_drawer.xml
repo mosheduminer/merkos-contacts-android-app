@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/send_email"
+        android:title="Send Email"
+        android:icon="@drawable/ic_menu_send" />
+
+    <item
+        android:id="@+id/advanced_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Advanced Search" />
+
+    <item
+        android:id="@+id/comments"
+        android:title="City Comments"/>
+
+</menu>
